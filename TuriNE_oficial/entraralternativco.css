@@ -1,0 +1,79 @@
+body {
+    background: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+/* HEADER */
+header {
+    background: #c14e1a;
+    padding: 18px;
+    color: white;
+}
+
+.header-btn {
+    background: white;
+    color: #c14e1a;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-weight: bold;
+    border: none;
+    margin-left: 8px;
+}
+
+/* BOTÃO HOME */
+.home-btn {
+    display: block;
+    margin: 40px auto;
+    border: 2px solid #c14e1a;
+    padding: 10px 35px;
+    border-radius: 25px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #c14e1a;
+    background: white;
+    cursor: pointer;
+}
+
+/* CONTAINER CENTRAL */
+.main-box {
+    width: 70%;
+    margin: auto;
+    background: #dcdcdc;
+    padding: 40px;
+    border-radius: 30px;
+    border: 4px solid #2f2f2f;
+    box-shadow: 10px 10px #3b3b3b;
+    margin-bottom: 40px;
+}
+
+/* TÍTULO */
+.title {
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: 30px;
+}
+
+/* CARDS */
+.option-card {
+    background: #b6846b;
+    border-radius: 30px;
+    width: 260px;
+    height: 230px;
+    padding: 20px;
+    margin: auto;
+    border: 3px solid #2b1c17;
+}
+
+.icon {
+    width: 100px;
+    margin: auto;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.label {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10px;
+}

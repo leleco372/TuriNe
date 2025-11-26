@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #dfdcd8;
+}
+
+/* Topo */
+.header {
+    background: #d28d00;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: bold;
+}
+
+.header img {
+    height: 55px;
+}
+
+.header-right button {
+    background: white;
+    padding: 5px 12px;
+    border-radius: 12px;
+    border: 1px solid #999;
+    cursor: pointer;
+}
+
+/* Barra de busca */
+.search-area {
+    margin: 25px auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-box {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    background: white;
+    padding: 8px 12px;
+    border-radius: 10px;
+    border: 1px solid #bbb;
+}
+
+.search-box input {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+
+.filter-btn {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #888;
+    cursor: pointer;
+    background: white;
+}
+
+.home-btn {
+    padding: 10px 20px;
+    background: white;
+    border-radius: 20px;
+    border: 2px solid #b36a26;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Cards */
+.card {
+    width: 90%;
+    background: white;
+    margin: 25px auto;
+    display: flex;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 4px 4px 0px #b18678;
+}
+
+.card-img {
+    width: 45%;
+    background: #d3d3d3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    color: #666;
+    border-radius: 10px 0 0 10px;
+}
+
+.card-content {
+    width: 55%;
+    padding: 20px;
+    position: relative;
+}
+
+.card-content h2 {
+    color: #c08400;
+    margin: 0;
+}
+
+.desc {
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+.btn-inscrever {
+    background: #c08400;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.favorite {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 20px;
+    cursor: pointer;
+}
